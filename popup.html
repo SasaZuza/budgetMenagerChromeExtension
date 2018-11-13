@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Budget Manager</title>
+    <link id="styleSheet" rel="stylesheet" href="popup.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+    <script src="jquery-3.3.1.js"></script>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <h1>- Budget Manager App -</h1>
+    <h2 class="limit-text">Money limit for spending: <span id="limit-enter">0</span></h2>
+    <hr>
+
+    <h3>Enter Amount of money you spent:</h3>
+
+    <div class="spend-wraper">
+        <input type="text" id="amount">
+        <input type="submit" id="spendAmount" value="Spend" />
+    </div>
+
+    <hr class="line-total">
+    <h2 class="total-text">Spent money </h2>
+    <h2 class="total-text">Total: <span id="total">0</span></h2>
+</body>
+
+</html>

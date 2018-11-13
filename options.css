@@ -1,0 +1,26 @@
+body {
+    background: url("Pig.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(175, 133, 94);
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color: rgb(114, 72, 34);
+}
+
+#limit {
+    background-color: rgb(208, 232, 253);
+}
+
+#saveLimit,
+#resetTotal {
+    background-color: rgb(226, 195, 153);
+}
